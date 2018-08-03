@@ -40,7 +40,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
   <div class="form">
       
       <ul class="tab-group">
-        <li hidden="" class="tab"><a href="#signup">البحث</a></li>
         <li class="tab active"><a href="#login">الدخول</a></li>
       </ul>
       

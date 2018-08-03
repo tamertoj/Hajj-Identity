@@ -53,16 +53,42 @@
       <div class="tab-content">
 
          <div id="adduser">   
-          <h1>البحث</h1>
+          <h1>إضافة مستخدم </h1>
           
-          <form action="../vieResulte/index.php" method="post" autocomplete="off">
+          <form action="index.php" method="post" autocomplete="off">
           
           <div class="field-wrap">
-            
-            <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
-                <input type="text" placeholder="Search.." name="PersonReqID"><br />
-                <button class="button button-block" name="adduser" />ابحث</button>
-            </form>
+            <label>
+             اسم المستخدم<span class="req"></span>
+            </label>
+            <input type="text" required autocomplete="off" name="password"/>
+          </div>
+		  
+		  <div class="field-wrap">
+            <label>
+              كلمة المرور<span class="req"></span>
+            </label>
+            <input type="password" required autocomplete="off" name="password"/>
+          </div>
+		  
+		  <div class="field-wrap">
+            <label>
+              البريد الإلكتروني<span class="req"></span>
+            </label>
+            <input type="text" required autocomplete="off" name="password"/>
+          </div>
+		  
+		  <div class="field-wrap">
+            <label>
+             الصورة الشخصية<span class="req"></span>
+            </label>
+            <input type="file" required autocomplete="off" name="password"/>
+          </div>
+          
+          <BR>
+          <button class="button button-block" name="adduser" />إضافة مستخدم</button>
+          
+          </form>
 
         </div> 
         
